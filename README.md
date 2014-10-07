@@ -4,7 +4,8 @@ __Skill Level:__ Beginner
 __Time Limit:__ 15-20 minutes
 
 An anagram is a word, phrase, or sentence formed from another by rearranging its letters:  
-“Angel” is an anagram of “glean.”.
+
+“Angel” is an anagram of “glean.”
 
 ##Instructions
 Modify the `detect_anagram` function to detect if the words are anagrams or not.
