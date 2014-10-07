@@ -1,6 +1,6 @@
 #Find The Anagrams
 
-__Skill Level:__ Beginner
+__Skill Level:__ Beginner  
 __Time Limit:__ 15-20 minutes
 
 An anagram is a word, phrase, or sentence formed from another by rearranging its letters: “Angel” is an anagram of “glean.”.
