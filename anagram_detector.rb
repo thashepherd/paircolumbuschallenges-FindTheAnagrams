@@ -3,8 +3,10 @@
 
 def detect_anagram(word1, word2)
 
-  #canonical(word1) == canonical(word2)
-  #Insert your solution below here.
+	#canonical lower-cases and sorts the letters of the input string
+	#if the two input words truly are anagrams, then the lower-cased,
+	#sorted canonical representations of both strings must match
+  canonical(word1) == canonical(word2)
 
 end
 
@@ -17,7 +19,8 @@ end
 
 def canonical(word)
  
-  #insert your solution here
+  word = word.downcase #Lower-case the word
+  word.chars.sort.join #Return a string with the sorted, lower-case letters of word
  
 end
 
