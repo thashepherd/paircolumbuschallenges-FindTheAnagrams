@@ -4,14 +4,6 @@
 def detect_anagram(word1, word2)
 
   canonical(word1) == canonical(word2)
-  
-  
-  # To initially solve this problem, I treat the strings as an array,
-  # and loop through each character making sure their counts match between
-  # each word.
-  # word1.downcase!
-  # word2.downcase!
-  # word1.split('').reduce(true) { |result, char| result && word1.count(char) == word2.count(char) }
 
 end
 
@@ -23,14 +15,8 @@ end
 
 
 def canonical(word)
-  # Similar to above, we downcase the word and then return a hash
-  # of each char and its count as a canonical anagram description
-  word.downcase!
-  result = {}
-
-  word.split('').each { |char| result[char] = word.count(char) }
-
-  return result
+  
+  word.downcase.split('').sort.join
  
 end
 
