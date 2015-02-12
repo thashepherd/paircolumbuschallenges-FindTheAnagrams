@@ -16,7 +16,9 @@ end
 
 def canonical(word)
  
-  word.downcase.split('').sort.join
+  result_hash = {}
+  word.downcase.split('') { |i| result_hash[i] += 1}
+  result_hash
  
 end
 
