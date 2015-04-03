@@ -1,25 +1,23 @@
-# VERSION ONE
+# STEP ONE
 # Implement your solution below
 
 def detect_anagram(word1, word2)
 
-  #canonical(word1) == canonical(word2)
   #Insert your solution below here.
 
 end
 
 
-# VERSION TWO
-# Implement this version by uncommenting the line in the function.
-# Then move your solution into the canonical function
-# Modify it in such a way that when called from detect_anagram it results in true or false
+# STEP TWO
+# Take what you did in STEP ONE, and create a new method that,
+# when called, will still cause the tests bellow to evaluate
+# to true, and reduce repetition in your code.
+
+# Place your new function bellow this line.
 
 
-def canonical(word)
- 
-  #insert your solution here
- 
-end
+
+# DO NOT ALTER ANYTHING BELLOW THIS LINE
 
 p "Do NOT change any code below this line"
 p detect_anagram('angel', 'glean') == true
