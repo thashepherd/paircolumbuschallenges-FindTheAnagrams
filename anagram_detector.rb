@@ -1,24 +1,9 @@
-# VERSION ONE
-# Implement your solution below
-
 def detect_anagram(word1, word2)
-
-  #canonical(word1) == canonical(word2)
-  #Insert your solution below here.
-
+  canonical(word1) == canonical(word2)
 end
 
-
-# VERSION TWO
-# Implement this version by uncommenting the line in the function.
-# Then move your solution into the canonical function
-# Modify it in such a way that when called from detect_anagram it results in true or false
-
-
+# Implement this in such a way that when called from detect_anagram it results in true or false.
 def canonical(word)
- 
-  #insert your solution here
- 
 end
 
 p "Do NOT change any code below this line"
