@@ -8,7 +8,7 @@ An anagram is a word, phrase, or sentence formed from another by rearranging its
 “Angel” is an anagram of “glean.”
 
 ##Instructions
-The `detect_anagram` method detects if the words are anagrams or not. It relies on an unimplemented `canonical` method. Fill out `canonical` so that `detect_anagram` is fixed.
+The `detect_anagram` method detects if the words are anagrams or not. It relies on an unimplemented `canonical` method. Fill out `canonical` so that `detect_anagram` returns true when both words are anagrams of each other.
 
 `detect_anagram('angel', 'glean') #should == true`  
 `detect_anagram('glean', 'angel') #should == true`  
